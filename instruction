@@ -1,0 +1,3 @@
+gcc -Wall -Wextra -pedantic sort.s -c
+gcc -Wall -Wextra -pedantic sort.o main.c -o main
+./main
