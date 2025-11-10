@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -pedantic -Wl,--dependency-file=CMakeFiles/sortStation.dir/link.d CMakeFiles/sortStation.dir/src/sortStation.c.o -o sortStation  libStack.a

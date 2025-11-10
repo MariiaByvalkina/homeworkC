@@ -1,0 +1,5 @@
+/home/mashaaaaaa/Desktop/cmake/build/CMakeFiles/Stack.dir
+/home/mashaaaaaa/Desktop/cmake/build/CMakeFiles/sortStation.dir
+/home/mashaaaaaa/Desktop/cmake/build/CMakeFiles/balanced.dir
+/home/mashaaaaaa/Desktop/cmake/build/CMakeFiles/edit_cache.dir
+/home/mashaaaaaa/Desktop/cmake/build/CMakeFiles/rebuild_cache.dir
