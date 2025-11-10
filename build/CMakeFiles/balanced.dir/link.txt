@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -Wextra -pedantic -Wl,--dependency-file=CMakeFiles/balanced.dir/link.d CMakeFiles/balanced.dir/src/balanced.c.o -o balanced  libStack.a
