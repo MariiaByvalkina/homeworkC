@@ -2,14 +2,16 @@
 #include <stdio.h>
 #include <string.h>
 
-void printBinary(int n) {
+void printBinary(int n)
+{
     unsigned int num = *(unsigned int*)&n;
     for (int i = 32 - 1; i >= 0; i--) {
         printf("%d", (num >> i) & 1);
     }
 }
 
-void addInColumn(int a, int b) {
+void addInColumn(int a, int b)
+{
     printf("\nСложение в столбик:\n");
 
     printf("  ");
@@ -26,7 +28,8 @@ void addInColumn(int a, int b) {
     printf("  (%d)\n", a + b);
 }
 
-int binaryToDecimalSigned(char* binary) {
+int binaryToDecimalSigned(char* binary)
+{
     unsigned int num = 0;
 
     for (int i = 0; i < 32; i++) {
@@ -36,7 +39,8 @@ int binaryToDecimalSigned(char* binary) {
     return (int)num;
 }
 
-int mainBinary() {
+int mainBinary()
+{
     int a, b;
 
     scanf("%d %d", &a, &b);
@@ -56,7 +60,8 @@ int mainBinary() {
     return 0;
 }
 
-int main(int arg, char* argv[]) {
+int main(int arg, char* argv[])
+{
     if (arg == 2 && strcmp(argv[1], "--tests") == 0) {
         runBinaryTests();
         return 0;
